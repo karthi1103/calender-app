@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  background-color: blue;
+}
+.container {
+  background-color: white;
+  width: 300px;
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 5px black;
+  overflow: hidden;
+}
+.month-name {
+  margin: 0;
+  background-color: orangered;
+  padding: 10px;
+  font-weight: bold;
+  color: white;
+}
+.day-name {
+  color: gray;
+  font-size: 25px;
+}
+.day-number {
+  font-size: 70px;
+  margin: 0;
+  font-weight: bold;
+}
+.year {
+  color: gray;
+  font-size: 25px;
+}
